@@ -2,7 +2,7 @@ import { KiteConnect } from "kiteconnect";
 
 const apiKey = process.env.API_KEY!;
 const apiSecret = process.env.API_SECRET!;
-const requestToken = "eTPiS4Rioa2wsS6O4BFl1wGyqtezIwa8";
+const requestToken = "3eYYyGgUXB02GBg5F0n12DTpDOGC3AZI";
 let accessToken = "";
 
 const kc = new KiteConnect({ api_key: apiKey });
@@ -37,3 +37,5 @@ async function getProfile() {
         console.error("Error getting profile:", err);
     }
 }
+
+init()
